@@ -1,0 +1,3 @@
+Comme le hdfs ne faite read que pour toutes les bloc dirrectement et pas par le clé la fonction de shuffle ne sera pas utile.
+
+comme le shuffle et un peut complexe une autre methode de reduce est introduit ,qui est testé mais pas avec hdfs , puis qu'il faut avoir une fonction read qui lit un nombre de bloc spécifique. 
