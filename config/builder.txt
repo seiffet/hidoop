@@ -1,0 +1,4 @@
+nameNodeClientPort<->8000
+nameNodeDataPort<->7000
+adresse_namenode<->147.127.133.201
+deamonmasterPort<->9999
