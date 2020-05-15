@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+
+
+for (( i=1; i< $1 ; i++ ));
+do
+perl -e "print 'x<->0'" >> out
+bc -l <<< "scale=4 ; ${RANDOM}/32767" >> out ;
+perl -e "print 'y<->0'" >> out
+bc -l <<< "scale=4 ; ${RANDOM}/32767" >> out ;
+done
